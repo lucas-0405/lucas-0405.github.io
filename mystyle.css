@@ -1,0 +1,154 @@
+h1{
+    color:rgba(155, 7, 254, 0.274);
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+h2{
+    font-family: serif;
+}
+
+.fat{
+    font-family: serif;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.greenword{
+    color: #336666;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#name{
+    font-size: 32px;
+}
+
+p{
+    text-indent: 2em;/* //前面空兩個字 */
+    letter-spacing: 2px;/* //自寬 */
+    line-height: 5px;  
+    font-family: "Noto Sans TC", serif;
+}
+*{
+    color: #333;
+}
+
+h2.greenword{
+    color: #336666;
+}
+
+header{
+    background-color: blanchedalmond;
+    padding: 30px;
+    border: gray 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+main{
+    background-color: rgb(247, 229, 207);
+    padding: 20px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+dt{
+    font-size: 24px;
+    font-weight: bold;
+    color: #336666;
+    padding: 10px;
+}
+
+dd{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.songlist{
+    color: red;
+    text-decoration: underline;
+}
+
+section{
+    background-color: #336666;
+    background-image: url(img/kkkk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+   margin: 20px;
+    border:black 2px solid;
+}
+
+    a {
+        color: blue;
+        background-color: rgb(180, 204, 183);
+    }
+
+
+    a:hover{
+        background-color: blue;
+        color: rgb(180, 204, 183);
+    }
+
+    a.social{
+        color: #713b3b;
+        background-color: beige;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    a:hover.social{
+        color: white;
+        background-color: blue;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    ul.andyullist{
+        list-style-type: square;
+    }
+
+    ol.andylist{
+        list-style-type: upper-roman;
+    }
+    
+    ol.andylist>li:hover{
+        background-color: blue;
+        color: white;
+    }
+
+    table.andytable{
+        width: 100%;
+        background-color: white;
+    }
+
+    table.andytable td{
+        text-align: center;
+    }
+
+    table.andytable th{
+        background-color: red;
+        color: white;
+        font-weight: 900;
+        text-align: center;
+        border: 2px solid orange;
+    }
+
+    table.andytable tr:nth-child(even){
+        background-color: pink;
+    }
+
+    table.andytable tr:nth-child(opp){
+        background-color: yellow;
+    }

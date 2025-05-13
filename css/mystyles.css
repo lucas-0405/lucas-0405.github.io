@@ -1,0 +1,40 @@
+p{
+    color:black;
+}
+
+a.cclink {
+    padding: 0px 30px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 50px;
+    color: cornflowerblue;
+}
+
+a.cclink:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div.ccdivgrey {
+    background-color: rgba(150, 217, 246, 0.548);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px splid gray;
+}
+
+h4.ccsmallh4{
+    font-size: 20px;
+    color: rgb(72, 155, 245);
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: blue;
+  }
+
+7gcc{
+    border-radius: 10px;
+  }
+
+.blackbg{
+    background-color: rgb(145, 188, 188);
+}
